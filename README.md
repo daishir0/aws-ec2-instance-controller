@@ -2,6 +2,8 @@
 
 A simple PHP script to control the start and stop of AWS EC2 instances, including both On-Demand and Spot instances. It can be easily deployed on a web server and used with Basic Authentication.
 
+※日本語のREADMEは下部にあります。
+
 ## Disclaimer
 
 Please note that this script contains sensitive information, such as AWS access keys and Basic Authentication credentials. Make sure to properly secure your server and take necessary precautions to protect your sensitive information. This script is provided "AS IS" without any warranties or guarantees. Use at your own risk.
@@ -11,13 +13,16 @@ Please note that this script contains sensitive information, such as AWS access 
 
 1. Clone this repository to your web server:
 
+```
 git clone https://github.com/daishir0/aws-ec2-instance-controller.git
+```
 
 2. Install AWS SDK for PHP using Composer:
 
+```
 cd aws-ec2-instance-controller
-
 composer require aws/aws-sdk-php
+```
 
 If you don't have Composer installed, you can follow the installation instructions on the [official Composer website](https://getcomposer.org/doc/00-intro.md).
 
@@ -40,18 +45,22 @@ Please note that you will be prompted for Basic Authentication credentials.
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
+---
 
 ## インストール
 
 1. このリポジトリをWebサーバーにクローンします。
 
+```
 git clone https://github.com/daishir0/aws-ec2-instance-controller.git
+```
 
 2. Composerを使ってAWS SDK for PHP をインストールします。
 
+```
 cd aws-ec2-instance-controller
-
 composer require aws/aws-sdk-php
+```
 
 Composerがインストールされていない場合は、[公式Composerウェブサイト](https://getcomposer.org/doc/00-intro.md) のインストール手順に従ってインストールできます。
 
